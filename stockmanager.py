@@ -381,7 +381,7 @@ class stackedExample(QWidget):
                 if a[-2] == 'UPDATE':
                     p = 'Quantity of Stock Changed from '+a[1]+' to '+a[2]
                 elif a[-2] == 'INSERT':
-                    p = 'Stock added with Quantity : '+a[1]+' and Cost(Per Unit in Rs.) : '+a[2]
+                    p = 'Stock added with Quantity : '+a[1]+'\n Cost(Per Unit in Rs.) : '+a[2]
                 elif a[-2] == 'REMOVE':
                     p = 'Stock information deleted.'
                 else:
