@@ -15,7 +15,6 @@ from PyQt5.QtGui import QIcon
 # from PyQt5.QtWidgets import QStackedWidget
 from PyQt5.QtWidgets import (QFormLayout, QLabel, QLineEdit, QListWidget, QStackedWidget, QWidget, QPushButton,QMainWindow,
                              QHBoxLayout, QAction)
-
 import sqlite3
 
 try:
